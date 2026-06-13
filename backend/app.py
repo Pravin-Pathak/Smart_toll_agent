@@ -30,7 +30,7 @@ app.add_middleware(
 
 )
 
-API_KEY = "AIzaSyAK0VUcme-8-HpFMxNha69ecI_oC7QdxOk"
+API_KEY = ""
 google_llm = GoogleGenAI(model="gemini-2.5-flash",api_key=API_KEY)
 google_embed = GoogleGenAIEmbedding(model="models/text-embedding-004",api_key=API_KEY)
 Settings.llm = google_llm
